@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Apology/static/css/main.5684f3f6.css",
+    "main.js": "/Apology/static/js/main.7018fcee.js",
+    "index.html": "/Apology/index.html",
+    "main.5684f3f6.css.map": "/Apology/static/css/main.5684f3f6.css.map",
+    "main.7018fcee.js.map": "/Apology/static/js/main.7018fcee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5684f3f6.css",
+    "static/js/main.7018fcee.js"
+  ]
+}
