@@ -1,38 +1,140 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ececec;
+}
+
+.image_container {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image_container img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img_h1 {
+  font-weight: 600;
+  font-size: 60px;
+  color: rgb(172, 73, 89);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.first-coulmn {
+  margin-top: 20px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.sorry_btn,
+.yes_button,
+.no_button,
+.date_yes_btn,
+.date_no_btn,
+.close_container {
+  padding: 13px;
+  border: 2px solid rgb(43, 19, 23);
+  font-family: cursive;
+  background-color: rgb(15, 11, 11);
+  color: rgb(177, 189, 158);
+  border-radius: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sorry_btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.yes_button,
+.no_button,
+.date_yes_btn,
+.date_no_btn,
+.close_container {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.if_yes,
+.if_no,
+.if_date_yes,
+.if_date_no {
+  margin-top: 10px;
+  color: rgb(85, 19, 8);
+  font-size: 10px;
+  font-family: cursive;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ececec;
+}
+
+.image_container {
+  text-align: center;
+}
+
+.image_container img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.img_h1 {
+  font-weight: 600;
+  font-size: 60px;
+  color: rgb(172, 73, 89);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.first-coulmn {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sorry_btn,
+.yes_button,
+.no_button,
+.date_yes_btn,
+.date_no_btn,
+.close_container {
+  padding: 13px;
+  border: 2px solid rgb(43, 19, 23);
+  font-family: cursive;
+  background-color: rgb(15, 11, 11);
+  color: rgb(177, 189, 158);
+  border-radius: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+  margin-top: 10px;
+}
+
+.sorry_btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.yes_button,
+.no_button,
+.date_yes_btn,
+.date_no_btn,
+.close_container {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.if_yes,
+.if_no,
+.if_date_yes,
+.if_date_no {
+  margin-top: 10px;
+  color: rgb(85, 19, 8);
+  font-size: 10px;
+  font-family: cursive;
+  text-align: center;
 }
